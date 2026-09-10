@@ -19,9 +19,10 @@ const translations = {
     "about.skillsDesc": "绘画、设计、摄影、策展规划、展览执行、跨文化沟通、独立创作",
     "works.label": "作品",
     "works.title": "创作与表达",
-    "works.subtitle": "绘画 · 摄影 · 数字艺术 · 策展项目",
+    "works.subtitle": "绘画 · 摄影 · 数字艺术 · 混合媒介",
     "works.filter.all": "全部",
     "works.filter.painting": "绘画",
+    "works.filter.mixedmedia": "混合媒介",
     "works.filter.photography": "摄影",
     "works.filter.digital": "数字艺术",
     "works.filter.curation": "策展",
@@ -55,9 +56,10 @@ const translations = {
     "about.skillsDesc": "Painting, design, photography, curatorial planning, exhibition execution, cross-cultural communication, independent creation",
     "works.label": "Works",
     "works.title": "Creation & Expression",
-    "works.subtitle": "Painting · Photography · Digital Art · Curation",
+    "works.subtitle": "Painting · Photography · Digital Art · Mixed Media",
     "works.filter.all": "All",
     "works.filter.painting": "Painting",
+    "works.filter.mixedmedia": "Mixed Media",
     "works.filter.photography": "Photography",
     "works.filter.digital": "Digital Art",
     "works.filter.curation": "Curation",
@@ -76,69 +78,102 @@ const translations = {
 const worksData = [
   {
     id: 1,
-    titleZh: "《晨雾》",
-    titleEn: "Morning Mist",
+    titleZh: "《Center Street》",
+    titleEn: "Center Street",
     category: "painting",
     categoryLabelZh: "绘画",
     categoryLabelEn: "Painting",
-    descZh: "布面油画，2024。以柔和的粉色与暖黄色捕捉清晨光线的微妙变化。",
-    descEn: "Oil on canvas, 2024. Soft pinks and warm yellows capture the subtle shifts of morning light.",
-    color: "linear-gradient(145deg, #ffe8d6, #ffd6d6)"
+    descZh: "水彩与彩铅，2021，300 × 300 mm。城市街道在黄昏光线中的色彩与透视练习。",
+    descEn: "Watercolor and colored pencil, 2021, 300 × 300 mm. A study of color and perspective in an urban street at dusk.",
+    image: "images/center-street.jpeg"
   },
   {
     id: 2,
-    titleZh: "《静默之间》",
-    titleEn: "Between Silence",
+    titleZh: "《Brunch》",
+    titleEn: "Brunch",
     category: "painting",
     categoryLabelZh: "绘画",
     categoryLabelEn: "Painting",
-    descZh: "纸本丙烯，2024。探索身体姿态与情绪留白之间的张力。",
-    descEn: "Acrylic on paper, 2024. Exploring the tension between bodily gestures and emotional silence.",
-    color: "linear-gradient(145deg, #f4a4a4, #e8a8a0)"
+    descZh: "水彩与彩铅，2021，300 × 300 mm。对日常餐食静物的观察与色彩表现。",
+    descEn: "Watercolor and colored pencil, 2021, 300 × 300 mm. An observation of everyday brunch still life and color expression.",
+    image: "images/brunch.jpeg"
   },
   {
     id: 3,
-    titleZh: "《城市呼吸》",
-    titleEn: "Urban Breath",
-    category: "photography",
-    categoryLabelZh: "摄影",
-    categoryLabelEn: "Photography",
-    descZh: "胶片摄影，2023。记录城市空间中流动的光线与人群。",
-    descEn: "Film photography, 2023. Recording flowing light and crowds within urban spaces.",
-    color: "linear-gradient(145deg, #fff8e7, #ffefc8)"
-  },
-  {
-    id: 4,
-    titleZh: "《数字花园》",
-    titleEn: "Digital Garden",
-    category: "digital",
-    categoryLabelZh: "数字艺术",
-    categoryLabelEn: "Digital Art",
-    descZh: "数字绘画，2024。在虚拟空间中构建一个温暖而有机的花园意象。",
-    descEn: "Digital painting, 2024. Constructing a warm, organic garden image within virtual space.",
-    color: "linear-gradient(145deg, #ffd6d6, #fff8e7)"
-  },
-  {
-    id: 5,
-    titleZh: "《心跳节律》",
-    titleEn: "Rhythm of the Heart",
-    category: "curation",
-    categoryLabelZh: "策展",
-    categoryLabelEn: "Curation",
-    descZh: "2024江苏省首届胸痛中心艺术展一等奖项目，探讨艺术与医学的交汇。",
-    descEn: "First Prize project at the 2024 Jiangsu Province Chest Pain Center Art Exhibition, exploring the intersection of art and medicine.",
-    color: "linear-gradient(145deg, #ffdfc8, #f4a4a4)"
-  },
-  {
-    id: 6,
-    titleZh: "《自我肖像》",
-    titleEn: "Self Portrait",
+    titleZh: "《Parallel World》",
+    titleEn: "Parallel World",
     category: "painting",
     categoryLabelZh: "绘画",
     categoryLabelEn: "Painting",
-    descZh: "具象绘画练习，2023。通过镜中凝视重新审视自我身份。",
-    descEn: "Figurative painting study, 2023. Re-examining identity through the gaze in the mirror.",
-    color: "linear-gradient(145deg, #e8a8a0, #ffd6d6)"
+    descZh: "丙烯，2021，500 × 500 mm。以放大镜与花卉为符号，探讨观看与被观看的平行关系。",
+    descEn: "Acrylic on canvas, 2021, 500 × 500 mm. Using a magnifying glass and flowers as symbols to explore the parallel between seeing and being seen.",
+    image: "images/parallel-world.jpeg"
+  },
+  {
+    id: 4,
+    titleZh: "《Dream》",
+    titleEn: "Dream",
+    category: "painting",
+    categoryLabelZh: "绘画",
+    categoryLabelEn: "Painting",
+    descZh: "水彩、杂志拼贴与马克笔，2021。将日常图像与梦境叙事叠加的拼贴绘画。",
+    descEn: "Watercolor, magazine collage, and marker, 2021. A collage painting that layers everyday imagery with dreamlike narratives.",
+    image: "images/dream.jpeg"
+  },
+  {
+    id: 5,
+    titleZh: "《Tulips & Taxi》",
+    titleEn: "Tulips & Taxi",
+    category: "painting",
+    categoryLabelZh: "绘画",
+    categoryLabelEn: "Painting",
+    descZh: "速写本水彩与马克笔，2021。街角的郁金香与出租车，捕捉城市一瞬的明亮。",
+    descEn: "Sketchbook watercolor and marker, 2021. Tulips and a taxi at a street corner, capturing a bright moment in the city.",
+    image: "images/tulips-and-taxi.jpeg"
+  },
+  {
+    id: 6,
+    titleZh: "《The Last Ice》",
+    titleEn: "The Last Ice",
+    category: "mixedmedia",
+    categoryLabelZh: "混合媒介",
+    categoryLabelEn: "Mixed Media",
+    descZh: "锡箔、泡沫板、丙烯，2021，300 × 300 mm。以冰川与北极熊为意象，回应气候与环境议题。",
+    descEn: "Tin foil, foam board, and acrylic, 2021, 300 × 300 mm. Glaciers and polar bears as imagery responding to climate and environmental issues.",
+    image: "images/the-last-ice.jpeg"
+  },
+  {
+    id: 7,
+    titleZh: "《The Definition of Appearance》",
+    titleEn: "The Definition of Appearance",
+    category: "photography",
+    categoryLabelZh: "摄影",
+    categoryLabelEn: "Photography",
+    descZh: "摄影，2021。将中国邮政信箱与“GET OUT OF THE STANDARD”传单并置，反思容貌焦虑与社会标准。",
+    descEn: "Photography, 2021. Juxtaposing a China Post mailbox with "GET OUT OF THE STANDARD" flyers, reflecting on appearance anxiety and social standards.",
+    image: "images/the-definition-of-appearance.jpeg"
+  },
+  {
+    id: 8,
+    titleZh: "《Get Out of the Standard》",
+    titleEn: "Get Out of the Standard",
+    category: "digital",
+    categoryLabelZh: "数字艺术",
+    categoryLabelEn: "Digital Art",
+    descZh: "明信片设计，2021。采集不同国家人群的面部轮廓并由 AI 重叠生成，呼吁跳出单一审美标准。",
+    descEn: "Postcard design, 2021. Facial contours from people of different countries were collected and overlapped by AI, calling to break away from a single beauty standard.",
+    image: "images/get-out-of-the-standard.jpeg"
+  },
+  {
+    id: 9,
+    titleZh: "《Nuclear Contaminated Creatures》",
+    titleEn: "Nuclear Contaminated Creatures",
+    category: "digital",
+    categoryLabelZh: "数字艺术",
+    categoryLabelEn: "Digital Art",
+    descZh: "塑料板雕刻与印刷，2021。以强烈黑白对比想象核污染下的变异生物，警示环境危机。",
+    descEn: "Plastic board engraving and printing, 2021. Strong black-and-white contrasts imagine mutated creatures under nuclear pollution, warning of environmental crisis.",
+    image: "images/nuclear-contaminated-creatures.jpeg"
   }
 ];
 
@@ -219,7 +254,7 @@ function renderWorks(filter) {
   grid.innerHTML = filtered.map(work => `
     <article class="work-card" data-id="${work.id}" data-category="${work.category}">
       <div class="work-image">
-        <div style="width:100%;height:100%;background:${work.color};"></div>
+        <img src="${work.image}" alt="${currentLang === 'zh' ? work.titleZh : work.titleEn}" loading="lazy">
         <div class="work-overlay">
           <span>${currentLang === 'zh' ? '查看详情' : 'View Details'}</span>
         </div>
@@ -266,7 +301,7 @@ function openModal(id) {
   if (!work) return;
 
   const modal = document.getElementById('imageModal');
-  document.getElementById('modalImage').style.background = work.color;
+  document.getElementById('modalImage').innerHTML = `<img src="${work.image}" alt="${currentLang === 'zh' ? work.titleZh : work.titleEn}">`;
   document.getElementById('modalTitle').textContent = currentLang === 'zh' ? work.titleZh : work.titleEn;
   document.getElementById('modalDesc').textContent = currentLang === 'zh' ? work.descZh : work.descEn;
   document.getElementById('modalCategory').textContent = currentLang === 'zh' ? work.categoryLabelZh : work.categoryLabelEn;
