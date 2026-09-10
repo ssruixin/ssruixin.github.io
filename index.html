@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruixin Sun | Personal Art Blog</title>
+  <meta name="description" content="Ruixin Sun - Visual Artist & Curator. Personal blog sharing artworks, curatorial notes, and daily thoughts.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" data-i18n="name">Ruixin Sun</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" data-i18n="nav.home">首页</a></li>
+        <li><a href="#journal" data-i18n="nav.journal">日志</a></li>
+        <li><a href="#works" data-i18n="nav.works">作品</a></li>
+        <li><a href="#about" data-i18n="nav.about">关于</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">联系</a></li>
+        <li class="lang-switch">
+          <button class="lang-btn active" data-lang="zh">中文</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="home">
+    <div class="hero-card">
+      <div class="hero-avatar" role="img" aria-label="Artist avatar">
+        <span>RS</span>
+      </div>
+      <h1 class="hero-name" data-i18n="name">Ruixin Sun</h1>
+      <p class="hero-tagline" data-i18n="hero.tagline">视觉艺术家 · 策展人 · 创作者</p>
+      <p class="hero-intro" data-i18n="hero.intro">这是我的个人艺术小站。我在这里记录创作、展览、旅行和日常里的灵光一闪。</p>
+      <div class="hero-actions">
+        <a href="#journal" class="btn btn-primary" data-i18n="hero.readJournal">读日志</a>
+        <a href="#works" class="btn btn-secondary" data-i18n="hero.viewWorks">看作品</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Journal Section -->
+  <section class="journal" id="journal">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-label" data-i18n="journal.label">日志</span>
+        <h2 class="section-title" data-i18n="journal.title">最近的思考</h2>
+        <p class="section-subtitle" data-i18n="journal.subtitle">创作笔记、展览观察与生活碎片</p>
+      </div>
+      <div class="journal-grid" id="journalGrid">
+        <!-- Journal entries populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Works Section -->
+  <section class="works" id="works">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-label" data-i18n="works.label">作品</span>
+        <h2 class="section-title" data-i18n="works.title">创作与表达</h2>
+        <p class="section-subtitle" data-i18n="works.subtitle">绘画 · 摄影 · 数字艺术 · 策展项目</p>
+      </div>
+      <p class="works-note">
+        <span data-lang-content="zh">以下作品为展示版式使用的示例图，请将你的真实作品图片发给我，我会替换进去。</span>
+        <span data-lang-content="en" class="hidden">The works below are sample placeholders for layout preview. Please send me your real artwork images and I will replace them.</span>
+      </p>
+      <div class="works-filter">
+        <button class="filter-btn active" data-filter="all" data-i18n="works.filter.all">全部</button>
+        <button class="filter-btn" data-filter="painting" data-i18n="works.filter.painting">绘画</button>
+        <button class="filter-btn" data-filter="photography" data-i18n="works.filter.photography">摄影</button>
+        <button class="filter-btn" data-filter="digital" data-i18n="works.filter.digital">数字艺术</button>
+        <button class="filter-btn" data-filter="curation" data-i18n="works.filter.curation">策展</button>
+      </div>
+      <div class="works-grid" id="worksGrid">
+        <!-- Works populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="section-container">
+      <div class="about-card">
+        <div class="about-avatar" role="img" aria-label="Artist portrait">
+          <span>RS</span>
+        </div>
+        <div class="about-body">
+          <div class="section-header">
+            <span class="section-label" data-i18n="about.label">关于我</span>
+            <h2 class="section-title" data-i18n="about.title">Ruixin Sun</h2>
+          </div>
+          <div class="about-text">
+            <div class="about-block" data-lang-content="zh">
+              <p>我叫 Ruixin Sun，来自中国江苏徐州。我是一名视觉艺术创作者与策展人，目前就读于香港城市大学创意媒体专业（策展方向），毕业于加拿大布鲁克大学视觉艺术（艺术工作室）专业。</p>
+              <p>我的创作横跨绘画、摄影、数字艺术与策展，关注情感表达、身体经验与当代视觉文化。我相信艺术不仅是观看的对象，更是人与人、人与空间建立连接的媒介。</p>
+              <p>2024 年，我在江苏省首届胸痛中心艺术展“心跳节律：艺术的召唤”中获得一等奖，也曾在徐州美术馆、徐州广电及江苏易点通传媒参与展览执行与内容创作工作。</p>
+            </div>
+            <div class="about-block hidden" data-lang-content="en">
+              <p>My name is Ruixin Sun, from Xuzhou, Jiangsu Province, China. I am a visual artist and curator currently studying Creative Media (Curatorial Branch) at City University of Hong Kong, and I hold a BA in Visual Arts (Art Studio) from Brock University, Canada.</p>
+              <p>My practice spans painting, photography, digital art, and curatorial work, focusing on emotional expression, bodily experience, and contemporary visual culture. I believe art is not only something to be seen, but also a medium that connects people and spaces.</p>
+              <p>In 2024, I received the First Prize at the Jiangsu Province Chest Pain Center Art Exhibition “Rhythm of the Heart: The Call of Art.” I have also worked on exhibition execution and content creation at Xuzhou Art Museum, Xuzhou Radio and Television Media Group, and Jiangsu Yi Dian Tong Media Planning Co.</p>
+            </div>
+          </div>
+          <div class="about-meta">
+            <div class="meta-item">
+              <span class="meta-label" data-i18n="about.education">教育背景</span>
+              <ul>
+                <li data-i18n="about.edu1">香港城市大学 · 创意媒体（策展）硕士</li>
+                <li data-i18n="about.edu2">加拿大布鲁克大学 · 视觉艺术（工作室）学士</li>
+              </ul>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label" data-i18n="about.skills">能力与特质</span>
+              <p data-i18n="about.skillsDesc">绘画、设计、摄影、策展规划、展览执行、跨文化沟通、独立创作</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="section-container">
+      <div class="contact-inner">
+        <div class="section-header light">
+          <span class="section-label" data-i18n="contact.label">联系</span>
+          <h2 class="section-title" data-i18n="contact.title">期待与你交流</h2>
+          <p class="section-subtitle" data-i18n="contact.subtitle">展览合作、作品收藏、艺术交流，欢迎随时联系我。</p>
+        </div>
+        <div class="contact-cards">
+          <a href="mailto:ssruixin@gmail.com" class="contact-card">
+            <span class="contact-icon">✉</span>
+            <span class="contact-label" data-i18n="contact.emailLabel">邮箱</span>
+            <span class="contact-value">ssruixin@gmail.com</span>
+          </a>
+          <a href="https://www.instagram.com/arts-xinxin/" target="_blank" rel="noopener" class="contact-card">
+            <span class="contact-icon">◉</span>
+            <span class="contact-label" data-i18n="contact.instagramLabel">Instagram</span>
+            <span class="contact-value">@arts-xinxin</span>
+          </a>
+          <div class="contact-card">
+            <span class="contact-icon">✆</span>
+            <span class="contact-label" data-i18n="contact.phoneLabel">电话</span>
+            <span class="contact-value">+1 437-772-1332</span>
+          </div>
+          <div class="contact-card">
+            <span class="contact-icon">⌂</span>
+            <span class="contact-label" data-i18n="contact.locationLabel">所在地</span>
+            <span class="contact-value" data-i18n="contact.location">中国 · 徐州 / 加拿大</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-name">Ruixin Sun</p>
+      <p class="footer-copy" data-i18n="footer.copy">© 2026 Ruixin Sun. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal" id="imageModal">
+    <button class="modal-close" aria-label="Close">&times;</button>
+    <div class="modal-content">
+      <div class="modal-image" id="modalImage"></div>
+      <div class="modal-info">
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+        <span class="modal-category" id="modalCategory"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
