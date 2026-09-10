@@ -85,7 +85,7 @@ const worksData = [
     categoryLabelEn: "Painting",
     descZh: "水彩与彩铅，2021，300 × 300 mm。城市街道在黄昏光线中的色彩与透视练习。",
     descEn: "Watercolor and colored pencil, 2021, 300 × 300 mm. A study of color and perspective in an urban street at dusk.",
-    image: "images/center-street.jpeg?v=2"
+    image: "images/center-street.jpeg?v=3"
   },
   {
     id: 2,
@@ -96,7 +96,7 @@ const worksData = [
     categoryLabelEn: "Painting",
     descZh: "水彩与彩铅，2021，300 × 300 mm。对日常餐食静物的观察与色彩表现。",
     descEn: "Watercolor and colored pencil, 2021, 300 × 300 mm. An observation of everyday brunch still life and color expression.",
-    image: "images/brunch.jpeg?v=2"
+    image: "images/brunch.jpeg?v=3"
   },
   {
     id: 3,
@@ -107,7 +107,7 @@ const worksData = [
     categoryLabelEn: "Painting",
     descZh: "丙烯，2021，500 × 500 mm。以放大镜与花卉为符号，探讨观看与被观看的平行关系。",
     descEn: "Acrylic on canvas, 2021, 500 × 500 mm. Using a magnifying glass and flowers as symbols to explore the parallel between seeing and being seen.",
-    image: "images/parallel-world.jpeg?v=2"
+    image: "images/parallel-world.jpeg?v=3"
   },
   {
     id: 4,
@@ -118,7 +118,7 @@ const worksData = [
     categoryLabelEn: "Painting",
     descZh: "水彩、杂志拼贴与马克笔，2021。将日常图像与梦境叙事叠加的拼贴绘画。",
     descEn: "Watercolor, magazine collage, and marker, 2021. A collage painting that layers everyday imagery with dreamlike narratives.",
-    image: "images/dream.jpeg?v=2"
+    image: "images/dream.jpeg?v=3"
   },
   {
     id: 5,
@@ -129,10 +129,54 @@ const worksData = [
     categoryLabelEn: "Painting",
     descZh: "速写本水彩与马克笔，2021。街角的郁金香与出租车，捕捉城市一瞬的明亮。",
     descEn: "Sketchbook watercolor and marker, 2021. Tulips and a taxi at a street corner, capturing a bright moment in the city.",
-    image: "images/tulips-and-taxi.jpeg?v=2"
+    image: "images/tulips-and-taxi.jpeg?v=3"
   },
   {
     id: 6,
+    titleZh: "《Hairpin Girl》",
+    titleEn: "Hairpin Girl",
+    category: "painting",
+    categoryLabelZh: "绘画",
+    categoryLabelEn: "Painting",
+    descZh: "油画，2023，50 × 60 cm。Brock University Visa Gallery 展出。以簪花女群像探索传统与当代身份。",
+    descEn: "Oil painting, 2023, 50 × 60 cm. Exhibited at Brock University Visa Gallery. Exploring traditional and contemporary identity through figures with floral hairpins.",
+    image: "images/hairpin-girl.jpg?v=3"
+  },
+  {
+    id: 7,
+    titleZh: "《The Singing of the Heart》",
+    titleEn: "The Singing of the Heart",
+    category: "painting",
+    categoryLabelZh: "绘画",
+    categoryLabelEn: "Painting",
+    descZh: "油画双联画，2024，40 × 50 cm × 2。徐州中心医院展览。以心脏与玫瑰、浆果并置，诉说生命与情感。",
+    descEn: "Oil painting diptych, 2024, 40 × 50 cm × 2. Exhibited at Xuzhou Hospital. Juxtaposing the heart with roses and berries to speak of life and emotion.",
+    image: "images/the-singing-of-the-heart-1.jpg?v=3"
+  },
+  {
+    id: 8,
+    titleZh: "《The Land of Fantasy》",
+    titleEn: "The Land of Fantasy",
+    category: "painting",
+    categoryLabelZh: "绘画",
+    categoryLabelEn: "Painting",
+    descZh: "油画三联画，2024，30 × 40 cm × 3。徐州 Alright Coffee 展览。冬日幻境中的色彩变奏。",
+    descEn: "Oil painting triptych, 2024, 30 × 40 cm × 3. Exhibited at Xuzhou Alright Coffee. A chromatic variation in a winter fantasy landscape.",
+    image: "images/the-land-of-fantasy-3.jpg?v=3"
+  },
+  {
+    id: 9,
+    titleZh: "《Paint Flow Direction》",
+    titleEn: "Paint Flow Direction",
+    category: "painting",
+    categoryLabelZh: "绘画",
+    categoryLabelEn: "Painting",
+    descZh: "丙烯圆形画布，2024，三件一组。Brock University 展出。用流动的色彩轨迹记录身体运动与情绪方向。",
+    descEn: "Acrylic on round canvases, 2024, set of three. Exhibited at Brock University. Recording bodily movement and emotional direction through flowing color traces.",
+    image: "images/paint-flow-direction.jpg?v=3"
+  },
+  {
+    id: 10,
     titleZh: "《The Last Ice》",
     titleEn: "The Last Ice",
     category: "mixedmedia",
@@ -140,10 +184,32 @@ const worksData = [
     categoryLabelEn: "Mixed Media",
     descZh: "锡箔、泡沫板、丙烯，2021，300 × 300 mm。以冰川与北极熊为意象，回应气候与环境议题。",
     descEn: "Tin foil, foam board, and acrylic, 2021, 300 × 300 mm. Glaciers and polar bears as imagery responding to climate and environmental issues.",
-    image: "images/the-last-ice.jpeg?v=2"
+    image: "images/the-last-ice.jpeg?v=3"
   },
   {
-    id: 7,
+    id: 11,
+    titleZh: "《Fantasy Butterfly》",
+    titleEn: "Fantasy Butterfly",
+    category: "mixedmedia",
+    categoryLabelZh: "混合媒介",
+    categoryLabelEn: "Mixed Media",
+    descZh: "立体书，2023，50 × 60 cm。Brock University 展出。以弹出结构让蝴蝶与花卉从页面中生长出来。",
+    descEn: "Pop-up book, 2023, 50 × 60 cm. Exhibited at Brock University. Butterflies and flowers grow out of the page through pop-up structures.",
+    image: "images/fantasy-butterfly.jpg?v=3"
+  },
+  {
+    id: 12,
+    titleZh: "《The Beauty of the Vase》",
+    titleEn: "The Beauty of the Vase",
+    category: "mixedmedia",
+    categoryLabelZh: "混合媒介",
+    categoryLabelEn: "Mixed Media",
+    descZh: "陶瓷装置，2025。一组手工釉彩花瓶与小型陶塑，探索器物与空间的美感。",
+    descEn: "Ceramic installation, 2025. A group of hand-glazed vases and small ceramic sculptures exploring the beauty of objects and space.",
+    image: "images/the-beauty-of-the-vase-1.jpg?v=3"
+  },
+  {
+    id: 13,
     titleZh: "《The Definition of Appearance》",
     titleEn: "The Definition of Appearance",
     category: "photography",
@@ -151,10 +217,21 @@ const worksData = [
     categoryLabelEn: "Photography",
     descZh: "摄影，2021。将中国邮政信箱与“GET OUT OF THE STANDARD”传单并置，反思容貌焦虑与社会标准。",
     descEn: "Photography, 2021. Juxtaposing a China Post mailbox with 'GET OUT OF THE STANDARD' flyers, reflecting on appearance anxiety and social standards.",
-    image: "images/the-definition-of-appearance.jpeg?v=2"
+    image: "images/the-definition-of-appearance.jpeg?v=3"
   },
   {
-    id: 8,
+    id: 14,
+    titleZh: "《Break the Routine》",
+    titleEn: "Break the Routine",
+    category: "digital",
+    categoryLabelZh: "数字艺术",
+    categoryLabelEn: "Digital Art",
+    descZh: "海报/明信片设计，2022。以放射状线条打破常规边界，呼吁跳出固定思维模式。",
+    descEn: "Poster/postcard design, 2022. Radial lines break conventional boundaries, calling to step out of fixed thinking patterns.",
+    image: "images/break-the-routine.jpg?v=3"
+  },
+  {
+    id: 15,
     titleZh: "《Get Out of the Standard》",
     titleEn: "Get Out of the Standard",
     category: "digital",
@@ -162,10 +239,10 @@ const worksData = [
     categoryLabelEn: "Digital Art",
     descZh: "明信片设计，2021。采集不同国家人群的面部轮廓并由 AI 重叠生成，呼吁跳出单一审美标准。",
     descEn: "Postcard design, 2021. Facial contours from people of different countries were collected and overlapped by AI, calling to break away from a single beauty standard.",
-    image: "images/get-out-of-the-standard.jpeg?v=2"
+    image: "images/get-out-of-the-standard.jpeg?v=3"
   },
   {
-    id: 9,
+    id: 16,
     titleZh: "《Nuclear Contaminated Creatures》",
     titleEn: "Nuclear Contaminated Creatures",
     category: "digital",
@@ -173,19 +250,23 @@ const worksData = [
     categoryLabelEn: "Digital Art",
     descZh: "塑料板雕刻与印刷，2021。以强烈黑白对比想象核污染下的变异生物，警示环境危机。",
     descEn: "Plastic board engraving and printing, 2021. Strong black-and-white contrasts imagine mutated creatures under nuclear pollution, warning of environmental crisis.",
-    image: "images/nuclear-contaminated-creatures.jpeg?v=2"
+    image: "images/nuclear-contaminated-creatures.jpeg?v=3"
   }
 ];
 
 let currentLang = 'zh';
 
 function init() {
-  setupNavigation();
-  setupLanguageSwitch();
-  setupScrollEffects();
-  renderWorks('all');
-  setupWorksFilter();
-  setupModal();
+  try {
+    setupNavigation();
+    setupLanguageSwitch();
+    setupScrollEffects();
+    renderWorks('all');
+    setupWorksFilter();
+    setupModal();
+  } catch (e) {
+    console.error('Portfolio init error:', e);
+  }
 }
 
 function setupNavigation() {
@@ -249,12 +330,21 @@ function setLanguage(lang) {
 
 function renderWorks(filter) {
   const grid = document.getElementById('worksGrid');
+  if (!grid) return;
   const filtered = filter === 'all' ? worksData : worksData.filter(w => w.category === filter);
 
-  grid.innerHTML = filtered.map(work => `
+  grid.innerHTML = filtered.map(work => workCardHTML(work)).join('');
+
+  grid.querySelectorAll('.work-card').forEach(card => {
+    card.addEventListener('click', () => openModal(parseInt(card.dataset.id)));
+  });
+}
+
+function workCardHTML(work) {
+  return `
     <article class="work-card" data-id="${work.id}" data-category="${work.category}">
       <div class="work-image">
-        <img src="${work.image}" alt="${currentLang === 'zh' ? work.titleZh : work.titleEn}" loading="lazy">
+        <img src="${work.image}" alt="${currentLang === 'zh' ? work.titleZh : work.titleEn}" width="400" height="500" loading="lazy">
         <div class="work-overlay">
           <span>${currentLang === 'zh' ? '查看详情' : 'View Details'}</span>
         </div>
@@ -265,11 +355,7 @@ function renderWorks(filter) {
         <p class="work-desc">${currentLang === 'zh' ? work.descZh : work.descEn}</p>
       </div>
     </article>
-  `).join('');
-
-  grid.querySelectorAll('.work-card').forEach(card => {
-    card.addEventListener('click', () => openModal(parseInt(card.dataset.id)));
-  });
+  `;
 }
 
 function setupWorksFilter() {
@@ -301,7 +387,7 @@ function openModal(id) {
   if (!work) return;
 
   const modal = document.getElementById('imageModal');
-  document.getElementById('modalImage').innerHTML = `<img src="${work.image}" alt="${currentLang === 'zh' ? work.titleZh : work.titleEn}">`;
+  document.getElementById('modalImage').innerHTML = `<img src="${work.image}" alt="${currentLang === 'zh' ? work.titleZh : work.titleEn}" width="600" height="750">`;
   document.getElementById('modalTitle').textContent = currentLang === 'zh' ? work.titleZh : work.titleEn;
   document.getElementById('modalDesc').textContent = currentLang === 'zh' ? work.descZh : work.descEn;
   document.getElementById('modalCategory').textContent = currentLang === 'zh' ? work.categoryLabelZh : work.categoryLabelEn;
