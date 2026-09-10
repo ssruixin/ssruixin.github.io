@@ -506,6 +506,7 @@ img {
   aspect-ratio: 4/5;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(145deg, var(--color-warm-yellow), var(--color-pink-soft));
 }
 
 .work-image img {
@@ -513,6 +514,7 @@ img {
   height: 100%;
   object-fit: cover;
   transition: var(--transition);
+  display: block;
 }
 
 .work-card:hover .work-image img {
