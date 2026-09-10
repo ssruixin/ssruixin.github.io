@@ -150,7 +150,7 @@ const worksData = [
     categoryLabelZh: "摄影",
     categoryLabelEn: "Photography",
     descZh: "摄影，2021。将中国邮政信箱与“GET OUT OF THE STANDARD”传单并置，反思容貌焦虑与社会标准。",
-    descEn: "Photography, 2021. Juxtaposing a China Post mailbox with "GET OUT OF THE STANDARD" flyers, reflecting on appearance anxiety and social standards.",
+    descEn: "Photography, 2021. Juxtaposing a China Post mailbox with 'GET OUT OF THE STANDARD' flyers, reflecting on appearance anxiety and social standards.",
     image: "images/the-definition-of-appearance.jpeg"
   },
   {
