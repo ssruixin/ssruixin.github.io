@@ -85,7 +85,7 @@ const worksData = [
     categoryLabelEn: "Painting",
     descZh: "水彩与彩铅，2021，300 × 300 mm。城市街道在黄昏光线中的色彩与透视练习。",
     descEn: "Watercolor and colored pencil, 2021, 300 × 300 mm. A study of color and perspective in an urban street at dusk.",
-    image: "images/center-street.jpeg"
+    image: "images/center-street.jpeg?v=2"
   },
   {
     id: 2,
@@ -96,7 +96,7 @@ const worksData = [
     categoryLabelEn: "Painting",
     descZh: "水彩与彩铅，2021，300 × 300 mm。对日常餐食静物的观察与色彩表现。",
     descEn: "Watercolor and colored pencil, 2021, 300 × 300 mm. An observation of everyday brunch still life and color expression.",
-    image: "images/brunch.jpeg"
+    image: "images/brunch.jpeg?v=2"
   },
   {
     id: 3,
@@ -107,7 +107,7 @@ const worksData = [
     categoryLabelEn: "Painting",
     descZh: "丙烯，2021，500 × 500 mm。以放大镜与花卉为符号，探讨观看与被观看的平行关系。",
     descEn: "Acrylic on canvas, 2021, 500 × 500 mm. Using a magnifying glass and flowers as symbols to explore the parallel between seeing and being seen.",
-    image: "images/parallel-world.jpeg"
+    image: "images/parallel-world.jpeg?v=2"
   },
   {
     id: 4,
@@ -118,7 +118,7 @@ const worksData = [
     categoryLabelEn: "Painting",
     descZh: "水彩、杂志拼贴与马克笔，2021。将日常图像与梦境叙事叠加的拼贴绘画。",
     descEn: "Watercolor, magazine collage, and marker, 2021. A collage painting that layers everyday imagery with dreamlike narratives.",
-    image: "images/dream.jpeg"
+    image: "images/dream.jpeg?v=2"
   },
   {
     id: 5,
@@ -129,7 +129,7 @@ const worksData = [
     categoryLabelEn: "Painting",
     descZh: "速写本水彩与马克笔，2021。街角的郁金香与出租车，捕捉城市一瞬的明亮。",
     descEn: "Sketchbook watercolor and marker, 2021. Tulips and a taxi at a street corner, capturing a bright moment in the city.",
-    image: "images/tulips-and-taxi.jpeg"
+    image: "images/tulips-and-taxi.jpeg?v=2"
   },
   {
     id: 6,
@@ -140,7 +140,7 @@ const worksData = [
     categoryLabelEn: "Mixed Media",
     descZh: "锡箔、泡沫板、丙烯，2021，300 × 300 mm。以冰川与北极熊为意象，回应气候与环境议题。",
     descEn: "Tin foil, foam board, and acrylic, 2021, 300 × 300 mm. Glaciers and polar bears as imagery responding to climate and environmental issues.",
-    image: "images/the-last-ice.jpeg"
+    image: "images/the-last-ice.jpeg?v=2"
   },
   {
     id: 7,
@@ -151,7 +151,7 @@ const worksData = [
     categoryLabelEn: "Photography",
     descZh: "摄影，2021。将中国邮政信箱与“GET OUT OF THE STANDARD”传单并置，反思容貌焦虑与社会标准。",
     descEn: "Photography, 2021. Juxtaposing a China Post mailbox with 'GET OUT OF THE STANDARD' flyers, reflecting on appearance anxiety and social standards.",
-    image: "images/the-definition-of-appearance.jpeg"
+    image: "images/the-definition-of-appearance.jpeg?v=2"
   },
   {
     id: 8,
@@ -162,7 +162,7 @@ const worksData = [
     categoryLabelEn: "Digital Art",
     descZh: "明信片设计，2021。采集不同国家人群的面部轮廓并由 AI 重叠生成，呼吁跳出单一审美标准。",
     descEn: "Postcard design, 2021. Facial contours from people of different countries were collected and overlapped by AI, calling to break away from a single beauty standard.",
-    image: "images/get-out-of-the-standard.jpeg"
+    image: "images/get-out-of-the-standard.jpeg?v=2"
   },
   {
     id: 9,
@@ -173,7 +173,7 @@ const worksData = [
     categoryLabelEn: "Digital Art",
     descZh: "塑料板雕刻与印刷，2021。以强烈黑白对比想象核污染下的变异生物，警示环境危机。",
     descEn: "Plastic board engraving and printing, 2021. Strong black-and-white contrasts imagine mutated creatures under nuclear pollution, warning of environmental crisis.",
-    image: "images/nuclear-contaminated-creatures.jpeg"
+    image: "images/nuclear-contaminated-creatures.jpeg?v=2"
   }
 ];
 
